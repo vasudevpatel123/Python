@@ -1,0 +1,163 @@
+import math
+
+sample = 10
+price = 10
+price = 20
+name = 'Vasu'
+is_published = True
+print(sample)
+print(price)
+print(name)
+print(is_published)
+
+print()
+
+name = 'John Smith'
+age = 20
+patient_status_new = False
+print(name)
+print(age)
+print(patient_status_new)
+
+name = input('What is your name? ')
+print('Hi '+name)
+name1 = input("Please enter your name: ")
+color = input("Please enter your favorite color: ")
+print(name1+' likes '+color)
+
+birth_year = input('Birth year: ')
+age = 2023 - int(birth_year)
+int()
+float()
+bool()
+print(age)
+
+weight_in_pounds = input('Please enter your weight in pounds: ')
+weight_in_kilograms = int(weight_in_pounds) * 0.453592
+print("Your weight in pounds is : "+weight_in_pounds)
+print('Your weight in kilograms is: '+str(weight_in_kilograms))
+
+course = 'Python for beginners'
+Email = '''
+Hi John !
+This is the first email sent to you.
+'''
+print(Email)
+print(course[0:5])
+print(course[:5])
+print(course[1:-1])
+print(course[-3])
+
+first = 'John'
+last = 'Smith'
+message = first + ' ['+last+'] is a coder'
+msg = f'{first} [{last}] is a coder'
+print(message)
+print(msg)
+#John [Smith] is a coder
+
+course = 'Python for Beginners'
+print(len(course))
+print(course.upper())
+print(course.lower())
+print(course.find('P'))
+print(course.find('Z'))
+print(course.replace('Beginners', 'Absolute Beginners'))
+print('python' in course)
+#in returns boolean method
+#find returns the index position of the string
+print(course.title())
+
+print(10//3)
+print(10**3)
+print(10%3)
+x = 3
+x = 10+3
+x += 10 #augmented assignment operator
+print(x)
+x -= 1
+print(x)
+x= 10+3*2
+print(x)
+
+#exponentiation 2 ** 3
+# multiplication or division
+# addition or subtraction
+x = (2+3) * 10 -3
+print(x)
+
+x = 2.5
+print(round(x))
+#abs() function always returns positive number
+print(abs(-2.9))
+print(math.ceil(2.9))
+print(math.floor(2.9))
+#python 3 math module
+
+is_hot = False
+is_cold = False
+if is_hot:
+    print("It's a hot day")
+    print('Drink plenty of water')
+elif is_cold:
+    print("It's a cold day")
+    print('Wear warm cloths')
+else:
+    print("It's a lovely day!")
+
+Price = 1000000
+buyer_credit_good = True
+if buyer_credit_good:
+    down_payment= Price*0.1
+else:
+    down_payment= Price*0.2
+
+print(f' Down Payment ${down_payment}' )
+
+has_high_income = True
+has_good_credit = True
+has_criminal_record = False
+if has_high_income and has_good_credit:
+    print("Eligible for a loan")
+
+if has_high_income or has_good_credit:
+    print("Eligible for a loan")
+
+if has_good_credit and not has_criminal_record:
+    print("Eligible for a loan")
+
+temperature = 30
+if temperature>30:
+    print("It's  a hot day.")
+else:
+    print("It's not a hot day.")
+#temperature<=30:
+#temperature==30:
+
+name = 'Krishna'
+if len(name)<3:
+    print('Name must be atleast 3 character long.')
+elif len(name)>50:
+    print('Name must be less than 50 character long')
+else:
+    print('Name looks good.')
+
+weight = int(input("Weight: "))
+unit = input('(L)bs or (K)g:')
+if unit.upper()=="L":
+    converted = int(weight*0.45)
+    print(f"You are {converted} kilograms.")
+else:
+    converted = int(weight/0.45)
+    print(f"You are {converted} pounds.")
+
+i=1
+while i<=5:
+    print(i)
+    i=i+1
+print("Done")
+i=1
+while i<=5:
+    print('*' * i)
+    i=i+1
+print("Done")

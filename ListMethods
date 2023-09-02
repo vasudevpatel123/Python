@@ -1,0 +1,25 @@
+numbers = [5, 2, 1, 7, 4]
+numbers.append(20)
+numbers.insert(0,10)
+numbers.remove(5)
+print(numbers.index(1))
+#numbers.clear()
+print(50 in numbers)
+print(7 in numbers)
+print(numbers.index(4))
+print(numbers.count(4))
+numbers.sort()
+numbers.reverse()
+numbers2 = numbers.copy()
+numbers.append(18)
+
+print(numbers2)
+
+numbers3 = [2, 2 , 4, 6, 3, 4, 6, 1]
+uniques = []
+for number in numbers3:
+    if number not in uniques:
+        uniques.append(number)
+
+print(uniques)
+

@@ -1,0 +1,42 @@
+def greet_user():
+    print("Hi there!")
+    print("Welcome Aboard")
+
+
+print("Start")
+greet_user()
+print("Finish")
+
+def greet_user(name):
+    print("Hi "+name)
+    print(f"Hi {name}!")
+
+
+greet_user("John")
+greet_user("Mary")
+
+def greet_user(first_name, last_name):
+    print(f"Hi {first_name} {last_name} !")
+
+
+greet_user("John", "Smith")
+greet_user(last_name="Smith", first_name="John")#keyword argument's power
+greet_user("Jhon",last_name="Smith")#positional argument before positional arguments
+#any number of keyword arguments after the positional arguments.
+
+def square(number):
+    return number*number
+
+
+print(square(3))
+data = square(4)
+print(data)
+
+def square(number):
+    print(number*number)
+
+
+print(square(5))
+
+ 
+

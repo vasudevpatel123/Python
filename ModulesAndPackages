@@ -1,0 +1,25 @@
+import converters
+#import utils
+from converters import kgs_to_lbs
+from utils import find_max
+from ecommerce.shipping import calc_shipping
+from ecommerce import shipping
+calc_shipping()
+shipping.calc_shipping()
+
+print(kgs_to_lbs(70))
+print(converters.kgs_to_lbs(70))
+
+numbers = [10, 3, 6, 2]
+max = numbers[0]
+for number in numbers:
+    if number> max:
+        max = number
+
+
+print(max)
+
+
+number = [10, 200, 4, 99]
+maximum = find_max(number)
+print(maximum)

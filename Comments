@@ -1,0 +1,10 @@
+# print Ocean is Blue
+print("Ocean is Blue")
+#sfdsfsgebteebergbhndfte
+#frwgdfsvfsgr4w wrgr frwgr
+
+# Calculates and returns the square of a number
+def square(number):
+    return number*number
+
+ 
